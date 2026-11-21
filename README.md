@@ -1,4 +1,16 @@
-# inbound-lead-router
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/banner-dark.svg">
+  <img alt="inbound-lead-router: routes every inbound lead to the right rep, with guards for open deals, do-not-contact and personal email." src=".github/banner-light.svg" width="100%">
+</picture>
+
+<p>
+  <a href="https://github.com/joshuaforwork10-sys/inbound-lead-router/actions/workflows/tests.yml"><img alt="tests" src="https://github.com/joshuaforwork10-sys/inbound-lead-router/actions/workflows/tests.yml/badge.svg"></a>
+  <img alt="Python 3.10 to 3.13" src="https://img.shields.io/badge/python-3.10%20%E2%80%93%203.13-2457E6">
+  <img alt="Zero runtime dependencies" src="https://img.shields.io/badge/dependencies-zero-047857">
+  <img alt="MIT license" src="https://img.shields.io/badge/license-MIT-475569">
+</p>
+
+<h1 align="left">inbound-lead-router</h1>
 
 Takes an inbound lead, matches it to the right account, runs the guards a real sales team needs, picks an owner with an SLA, and returns the plan of actions it would take as JSON, with every decision written down.
 
@@ -28,7 +40,7 @@ flowchart TD
 
 ## Quickstart
 
-Python 3.9+ and nothing else to run it. `pytest` only for the tests.
+Python 3.10+ and nothing else to run it. `pytest` only for the tests.
 
 ```bash
 git clone https://github.com/joshuaforwork10-sys/inbound-lead-router && cd inbound-lead-router
