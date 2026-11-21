@@ -1,0 +1,6 @@
+{
+  "northwind-logistics.example": {"company": "Northwind Logistics", "region": "US-East", "employees": 820, "industry": "Logistics"},
+  "contosohealth.example": {"company": "Contoso Health", "region": "US-West", "employees": 2400, "industry": "Healthcare"},
+  "lucernefreight.example": {"company": "Lucerne Freight", "region": "US-East", "employees": 300, "industry": "Logistics"},
+  "graphicdesigninstitute.example": {"company": "Graphic Design Institute", "region": "US-West", "employees": 45, "industry": "Education"}
+}

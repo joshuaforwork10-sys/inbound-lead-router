@@ -1,0 +1,13 @@
+[
+  {"id": "A-100", "name": "Northwind Logistics", "domain": "northwind-logistics.example", "owner": "Jordan Kim",
+   "region": "US-East", "employees": 820, "do_not_contact": false, "open_deal": null},
+  {"id": "A-102", "name": "Contoso Health", "domain": "contosohealth.example", "owner": "Riley Chen",
+   "region": "US-West", "employees": 2400, "do_not_contact": false,
+   "open_deal": {"id": "D-2207", "stage": "proposal", "owner": "Morgan Avery"}},
+  {"id": "A-103", "name": "Fabrikam Robotics", "domain": "fabrikam.example", "owner": "Jordan Kim",
+   "region": "US-Central", "employees": 310, "do_not_contact": false, "open_deal": null},
+  {"id": "A-104", "name": "Tailspin Travel", "domain": "tailspintravel.example", "owner": "Riley Chen",
+   "region": "US-West", "employees": 140, "do_not_contact": true, "open_deal": null},
+  {"id": "A-105", "name": "Litware Analytics", "domain": "litware.example", "owner": null,
+   "region": "EMEA", "employees": 95, "do_not_contact": false, "open_deal": null}
+]

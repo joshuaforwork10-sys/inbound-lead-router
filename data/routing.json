@@ -1,0 +1,18 @@
+{
+  "name_match_threshold": 0.88,
+  "personal_domains": ["gmail.com", "yahoo.com", "outlook.com", "hotmail.com", "icloud.com", "proton.me", "aol.com"],
+  "do_not_contact": {"emails": ["no-sales@litware.example"], "domains": []},
+  "territories": [
+    {"name": "enterprise", "min_employees": 1000, "pool": ["Morgan Avery"]},
+    {"name": "east-central", "regions": ["US-East", "US-Central"], "pool": ["Jordan Kim", "Taylor Brooks"]},
+    {"name": "west", "regions": ["US-West"], "pool": ["Riley Chen", "Casey Patel"]},
+    {"name": "emea", "regions": ["EMEA"], "pool": ["Sasha Novak"]}
+  ],
+  "fallback_pool": ["Inbound queue"],
+  "sources": {
+    "demo_request":     {"sla_minutes": 15,   "sequence": "Demo follow-up"},
+    "contact_sales":    {"sla_minutes": 60,   "sequence": "Sales inquiry follow-up"},
+    "content_download": {"sla_minutes": 1440, "sequence": "Content nurture"}
+  },
+  "nurture_sequence": "Newsletter nurture"
+}
